@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WBDPostsViewController.h"
 
 @interface WBDAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) WBDPostsViewController *postsViewController;
+
 
 @end
